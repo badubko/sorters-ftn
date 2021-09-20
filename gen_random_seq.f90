@@ -1,7 +1,7 @@
 PROGRAM gen_random_seq
 
-INTEGER (kind=8), PARAMETER ::samples_per_line=5    ! Number of samples/line
-INTEGER (kind=8), PARAMETER ::total_lines=5         ! Total lines
+INTEGER (kind=8), PARAMETER ::samples_per_line=1    ! Number of samples/line
+INTEGER (kind=8), PARAMETER ::total_lines=20      ! Total lines
 
 INTEGER (kind=8)  :: I , J , K
 
