@@ -1,6 +1,6 @@
 MODULE declarations_ordic
 INTEGER (kind=8), PARAMETER ::samples_per_line=1    ! Number of samples/line
-INTEGER (kind=8), PARAMETER ::total_lines=20       ! Total lines
+INTEGER (kind=8), PARAMETER ::total_lines=25000    ! Total lines
 INTEGER (kind=8), PARAMETER ::max_values=samples_per_line*total_lines   ! Total lines 
 
 REAL(kind=8)	    :: random_n (samples_per_line * total_lines)
